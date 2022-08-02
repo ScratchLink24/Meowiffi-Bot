@@ -5,9 +5,9 @@ import requests
 from time import sleep
 
 # ======================================================================
-# OCTAVIA BOT v0.1.0 - Developed by MikeDEV
-# Based upon the Octavia! AI Chat Bot v0.3a by Jun-Dragon on Scratch.
-#
+# MEOWIFFI BOT v0.1.0 - Originally by @MikeDEV
+# Based upon the Octavia! AI Chat Bot v0.3a by Jun-Dragon on Scratch,
+# re-made to the Meowiffi Bot.
 # This software is Licensed using the MEOW License.
 #
 # ======================================================================
@@ -127,7 +127,7 @@ def on_packet(message):
 if __name__ == "__main__":
     cl = CloudLink(BOT_DEBUG_MODE)
     db = TinyDB(BOT_DB_LOCATION)
-    bot = Octavia()
+    bot = Meowiffi-BOT-Real()
     
     cl.callback("on_packet", on_packet)
     cl.callback("on_error", on_error)
